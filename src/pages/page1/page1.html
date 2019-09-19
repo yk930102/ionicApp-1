@@ -8,11 +8,6 @@
 
 <ion-content padding>
   <ion-list>
-    <ion-list-header>Ionic</ion-list-header>
-    <button ion-item (click)="close()">Learn Ionic</button>
-    <button ion-item (click)="close()">Documentation</button>
-    <button ion-item (click)="close()">Showcase</button>
-    <button ion-item (click)="close()">GitHub Repo</button>
       <ion-list-header>
         Header
       </ion-list-header>
@@ -29,28 +24,10 @@
         <ion-label>Toggle</ion-label>
         <ion-toggle item-end></ion-toggle>
       </ion-item>
-      <ion-item>
-        <ion-label>Select-popover</ion-label>
-        <ion-select item-end interface="popover">
-          <ion-option value="A">A</ion-option>
-          <ion-option value="B">B</ion-option>
-          <ion-option value="C">C</ion-option>
-          <ion-option value="D">D</ion-option>
-        </ion-select>
-      </ion-item>
-      <ion-item>
-        <ion-label>Select-action-sheet</ion-label>
-        <ion-select item-end interface="action-sheet">
-          <ion-option value="A">A</ion-option>
-          <ion-option value="B">B</ion-option>
-          <ion-option value="C">C</ion-option>
-          <ion-option value="D">D</ion-option>
-        </ion-select>
-      </ion-item>
-      <ion-item>
-        <ion-label>Select</ion-label>
-        <ion-select item-end>
-          <ion-option value="A">A</ion-option>
+      <ion-item style="width: 100%">
+        <ion-label>S</ion-label>
+        <ion-select style="max-width: 100%" item-end interface="popover">
+          <ion-option value="A">西北集团（中天五建）</ion-option>
           <ion-option value="B">B</ion-option>
           <ion-option value="C">C</ion-option>
           <ion-option value="D">D</ion-option>
@@ -77,10 +54,6 @@
       <button ion-item detail-none>
         Button Item with no Detail Arrow
       </button>
-
-      <a ion-item href="https://www.ionicframework.com">
-        Anchor Item
-      </a>
 
       <ion-item no-lines>
         Item with no border
